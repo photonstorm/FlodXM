@@ -1,0 +1,8 @@
+# Flash10
+# Flash10
+-cp .\
+#-cp ..\..\..\Lib
+-swf .\bin\Test.swf
+-swf-lib .\data\data.swf
+-swf-version 10
+-main Test

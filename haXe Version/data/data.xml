@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shx:resources version="10" compress="true" w="320" h="240" fps="15" 
+	xmlns:shx="http://mindless-labs.com/samhaxe"
+	xmlns:img="http://mindless-labs.com/samhaxe/modules/Image"
+	xmlns:font="http://mindless-labs.com/samhaxe/modules/Font"
+	xmlns:snd="http://mindless-labs.com/samhaxe/modules/Sound"
+	xmlns:swf="http://mindless-labs.com/samhaxe/modules/Swf"
+	xmlns:bin="http://mindless-labs.com/samhaxe/modules/Binary">
+
+	<!-- first frame, preloader assets -->
+	<shx:frame>
+		<!--<swf:library							import="FlodXM.swf"/>-->
+		<bin:binary class="Data_Music"			import="fairyfan.xm"/>		
+	</shx:frame>
+
+	<shx:frame>
+	</shx:frame>
+
+</shx:resources>
